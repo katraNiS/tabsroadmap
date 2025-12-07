@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabs</title>
+    <link rel="stylesheet" href="/tabs/styles.css">
+</head>
+<body>
+    <h2>Tabs</h2>
+    <p>Click on the buttons inside the tabbed menu:</p>
+    <div class="tab">
+        <button class="tablinks" onclick="openCategory(event, 'Vinyls')">Vinyls</button>
+        <button class="tablinks" onclick="openCategory(event, 'CDs')">CDs</button>
+        <button class="tablinks" onclick="openCategory(event, 'Merch')">Merch</button>
+    </div>
+    
+    <!-- Tab content -->
+    <div id="Vinyls" class="tabcontent">
+        <h3>Vinyls</h3>
+        <p>Vinyls (more accurately called vinyl records) are analog sound storage media: flat discs made from polyvinyl chloride
+        (PVC), featuring a spiral groove that physically encodes sound, played on a turntable with a stylus that reads the
+        groove to produce audio.</p>
+    </div>
+    
+    <div id="CDs" class="tabcontent">
+        <h3>CDs</h3>
+        <p>Compact discs (CDs) are optical discs, typically 120mm in diameter, that store digital data like music, software, and
+        images, using a laser to read microscopic "pits" and "lands" on their surface, revolutionizing audio playback by
+        replacing analog formats like vinyl and cassettes with clear, digital sound</p>
+    </div>
+    
+    <div id="Merch" class="tabcontent">
+        <h3>Merch</h3>
+        <p>Compact band merch refers to smaller, portable, and often affordable items that fans can easily buy and carry, acting as
+        tangible tokens of support and identity, like stickers, buttons, patches, guitar picks, keychains, and bandanas,
+        contrasting with larger items like t-shirts or vinyl, and serving as great low-cost entry points for fans and revenue
+        streams for bands.</p>
+    </div>
+</body>
+<script src="/tabs/script.js"></script>
+
+</html>
